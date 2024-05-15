@@ -23,7 +23,7 @@ app.listen(PORT, async () => {
         await createUsersTable();
         console.log('Database initialization complete.');
         console.log(`Server running on port ${PORT}`);
-    } catch (error) {
+    } catch (error) {    
         console.error('Error initializing database:', error);
     }
   });
